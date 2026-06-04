@@ -9,7 +9,7 @@ const navItems = [
 ];
 
 const siteBasePath = process.env.GITHUB_ACTIONS ? "/Wizzw" : "";
-const resumeHref = `${siteBasePath}/${encodeURIComponent("resume.pdf")}`;
+const resumeHref = `${siteBasePath}/resume.pdf`;
 
 const experiences = [
   {
