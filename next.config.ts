@@ -6,8 +6,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.GITHUB_ACTIONS ? "/tsuYuResume" : "",
-  assetPrefix: process.env.GITHUB_ACTIONS ? "/tsuYuResume/" : "",
+  basePath: process.env.GITHUB_ACTIONS ? "/Wizzw" : "",
+  assetPrefix: process.env.GITHUB_ACTIONS ? "/Wizzw/" : "",
 };
 
 export default nextConfig;
