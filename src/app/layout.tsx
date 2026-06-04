@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "余威 | UE 游戏客户端开发",
+  title: "王志文 | Java 后端开发",
   description:
-    "余威的个人主页，聚焦 UE 游戏客户端开发、资产管线、Wwise、UGC 系统与 AI 工具链。",
+    "王志文的个人主页，专注于 Java 后端开发、分布式系统、Spring 全家桶与 Redis/MySQL。",
 };
 
 export default function RootLayout({

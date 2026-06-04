@@ -2,11 +2,11 @@
 
 import { useEffect, useMemo, useState } from "react";
 
-const names = ["余威", "Yu Wei", "t5uYu"];
+const names = ["王志文", "Wang Zhiwen", "WangZhiwen"];
 
 function renderColoredName(value: string) {
   return value.split("").map((char, index) => {
-    const shouldAccent = value === "t5uYu" && (char === "5" || char === "Y");
+    const shouldAccent = value === "WangZhiwen" && (char === "W" || char === "Z");
 
     return (
       <span
